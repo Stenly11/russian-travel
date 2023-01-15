@@ -1,0 +1,8 @@
+.footer__copyright {
+  display: flex;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: flex-end;
+}
