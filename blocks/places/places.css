@@ -6,3 +6,25 @@
   padding: 0;
   align-items: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .places {
+    margin: 0 48px 92px 48px;
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places{
+    margin: 0 24px 90px 24px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .places {
+    max-width: 320px;
+    margin-bottom: 66px;
+
+  }
+}

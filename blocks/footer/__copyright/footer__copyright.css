@@ -6,3 +6,10 @@
   line-height: 16px;
   align-items: flex-end;
 }
+
+@media screen and (max-width: 480px) {
+  .footer {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

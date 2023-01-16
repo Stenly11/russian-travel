@@ -5,3 +5,29 @@
   max-width: 1184px;
   margin: 0 auto 92px auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    grid-gap: 14px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid{
+    grid-gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+    max-width: 720px;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .photo-grid {
+    grid-gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    max-width: 288px;
+    margin-bottom: 64px;
+  }
+}
