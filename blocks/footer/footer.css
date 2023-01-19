@@ -3,31 +3,21 @@
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 1184px;
-  height: 18px;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 24px;
   align-items: center;
-}
-
-@media screen and (max-width: 1024px) {
-  .footer {
-    max-width: 928px;
-    margin: 0 48px 24px 48px;
-  }
+  width: calc(100% - 2*48px);
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    max-width: 720px;
-    margin: 0 24px 24px 24px;
+    width: calc(100% - 2*24px);
   }
 }
 
 @media screen and (max-width: 480px) {
   .footer {
-    width: 186px;
-    height: 310px;
+    width: calc(100% - 2*16px);
     flex-direction: column;
-    margin: 0 188px 24px 16px;
     align-items: flex-start;
   }
 }

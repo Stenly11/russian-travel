@@ -5,29 +5,20 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    max-width: 928px;
-    margin: 0 auto 92px;
+    width: calc(100% - 48px*2);
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    max-width: 720px;
+    width: calc(100% - 24px*2);
     margin: 0 auto 88px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .intro {
-    max-width: 720px;
-    margin: 0 auto 88px;
-    padding: 0 30px 0 30px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .intro {
+    width: calc(100% - 16px*2);
     margin: 0 auto 64px;
-    padding: 0 16px 0 16px;
   }
 }

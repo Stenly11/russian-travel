@@ -7,13 +7,11 @@
   background-image: url("../../../images/cover-trains.jpg");
   background-size: cover;
   width: 100%;
-  /*max-width: 1184px;*/
   min-height: 740px;
   text-decoration: none;
   position: relative;
   background-position: center;
   background-repeat:no-repeat;
-  /*background-size:contain;*/
 }
 
 .cover__background:before {
