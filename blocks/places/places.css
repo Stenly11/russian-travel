@@ -3,24 +3,33 @@
   flex-direction: column;
   max-width: 984px;
   margin: 0 auto 92px;
+  width: calc(100% - 2*148px);
 }
 
 @media screen and (max-width: 1024px) {
   .places {
-    width: calc(100% - 2 * 48px);
+    width: calc(100% - 2*48px);
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
-    width: calc(100% - 2 * 24px);
+    width: calc(100% - 2*24px);
     margin: 0 auto 90px;
+    max-width: 720px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .places {
-    width: 100%;
-    margin: 0 auto 66px;
+   width: calc(100% - 2*16px);
+   margin-bottom: 66px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+   width: 100%;
+   margin-bottom: 66px;
   }
 }
