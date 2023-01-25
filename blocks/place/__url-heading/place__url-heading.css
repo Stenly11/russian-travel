@@ -6,4 +6,6 @@
   line-height: calc(12 / 12 *100%);
   letter-spacing: 0.2em;
   margin: 0 0 12px;
+  padding: 0;
+  text-transform: uppercase;
 }
