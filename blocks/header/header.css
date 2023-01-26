@@ -9,7 +9,6 @@
 
 @media screen and (max-width: 1024px) {
   .header {
-    width: calc(100% - 2*48px);
     margin-bottom: 48px;
   }
 }
@@ -24,5 +23,6 @@
   .header {
     width: calc(100% - 2*16px);
     padding-top: 16px;
+    height: 42px;
   }
 }

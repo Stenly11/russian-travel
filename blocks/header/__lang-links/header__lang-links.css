@@ -1,13 +1,8 @@
 .header__lang-links {
-  margin: 20px 0 0;
+  margin: 0;
   padding: 0;
   list-style-type: none;
   display: flex;
-  align-items: center;
-}
-
-@media screen and (max-width: 480px) {
-  .header__lang-links {
-    margin-top: 10px;
-  }
+  align-items: flex-end;
+  column-gap: 18px;
 }
